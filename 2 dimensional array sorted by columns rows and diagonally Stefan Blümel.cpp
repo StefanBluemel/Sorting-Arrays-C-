@@ -16,9 +16,9 @@ void main(void)
 	cout << "Task 1 sorting into columns:" << endl << endl;
 
 	int arr[4][4] = { 3,3,3,3,
-					  4,5,2,1,
-					  1,9,2,7,
-					  3,7,6,5 };
+			  4,5,2,1,
+			  1,9,2,7,
+			  3,7,6,5 };
 
 	cout << "before sorting:" << endl;
 	display(arr, 4, 4);
@@ -27,14 +27,15 @@ void main(void)
 	cout << endl << endl << "after sorting:" << endl;
 	display(arr, 4, 4);
 	cout << endl << endl <<"*****************************************************" << endl << endl;
-	//*****************************************************//
+	
+//********************************************************************************************************************//
 	//Aufgabe 2 Zeilenweise Sortieren
 	cout << "Task 2 sorting into rows:" << endl << endl;
 
 	int arr2[4][4] = { 3,3,3,3,
-				  	   4,5,2,1,
-				 	   1,9,2,7,
-					   3,7,6,5 };
+			   4,5,2,1,
+			   1,9,2,7,
+			   3,7,6,5 };
 
 	cout << "before sorting:" << endl;
 	display(arr2, 4, 4);
@@ -44,14 +45,14 @@ void main(void)
 	display(arr2, 4, 4);
 	cout << endl << endl << "*****************************************************" << endl << endl;
 
-	//*****************************************************//
+//********************************************************************************************************************//
 	//Aufgabe 3 Diagonal Sortieren von Oben Links nach unten Rechts
 	cout << "Task 3 sorting the smaller numbers diagonally into the upper left and the bigger numbers to the bottom right" << endl << endl;
 
 	int arr3[4][4] = { 3,3,3,3,
-					   4,5,2,1,
-					   1,9,2,7,
-					   3,7,6,5 };
+			   4,5,2,1,
+			   1,9,2,7,
+			   3,7,6,5 };
 
 	cout << "before sorting:" << endl;
 	display(arr3, 4, 4);
@@ -61,7 +62,7 @@ void main(void)
 	display(arr3, 4, 4);
 	cout << endl << endl << "*****************************************************" << endl << endl;
 
-	//*****************************************************//
+//********************************************************************************************************************//
 }
 
 void display(int arr[4][4], int rows, int columns)
